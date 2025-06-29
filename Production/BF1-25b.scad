@@ -2,7 +2,7 @@
 //  Brendan Fennell
 //  BF3DPrinting LLC
 
-//  Leaned Flush 25mm Base
+//  Bordered Flush 25mm Base
 
 input="";
 
@@ -94,7 +94,7 @@ rout=7;
 rhole=3;
 lhole=5;
 tstrip=(5*.4);
-leanback=0.5;//.05
+leanback=0;//.05
 bit=.01;
 $fn=50;
 metrics=textmetrics(text=input,size=htex,font="Arial:style=bold",halign="left",valign="center");
