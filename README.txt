@@ -2,16 +2,21 @@ Author - Brendan Fennell
 
 Part Numbering Scheme
 
-B F 1 I - 25 a
-| | | |   |  |
-| | | |   |  |---> Component (Background [b], Accents [a])
-| | | |   |
-| | | |   |------> Size (mm: 15,25,35)
+F B S N 1 M - 25 a
+| | | | | |    | |
+| | | | | |    | |---> Component (Background [b], Accents [a])
+| | | | | |    |
+| | | | | |    |-----> Size (mm: 15,25,35)
+| | | | | |
+| | | | | |----------> Sides (Mirrored Sides [M], Unique Sides [U], Single-Side [O])
+| | | | |
+| | | | |------------> Lines (One Line [1], Two Lines [2], Three Lines [3])
 | | | |
-| | | |----------> Sides (Mirrored Sides [M], Unique Sides [U], Single-Side [O])
-| | |
-| | |------------> Lines of Text (1,2,3)
+| | | |--------------> Lean (Nolean [N], Lean [L])
+| | | 
+| | |----------------> Shape (Square [S], Hanging [H], Bubble [B])
 | |
-| |--------------> Lettering (Flush [F], Extruded [E])
+| |------------------> Edge Type (Bordered [B], Clean [C])
 |
-|----------------> Type (Bordered[B], Leaned[L])
+|--------------------> Lettering (Flush [F], Extruded [E], Negative [N])
+

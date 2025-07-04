@@ -2,7 +2,7 @@
 //  Brendan Fennell
 //  BF3DPrinting LLC
 
-//  BE1M-15a
+//  EBSN1M-15a
 //  Bordered Extruded 1-line Mirrored 15mm Accents
 
 input="";
