@@ -2,7 +2,7 @@
 //  Brendan Fennell
 //  BF3DPrinting LLC
 
-//  BF1M-25a
+//  FBSN1M-25a
 //  Bordered Flush 1-line Mirrored 25mm Accents
 
 input="";

@@ -2,7 +2,7 @@
 //  Brendan Fennell
 //  BF3DPrinting LLC
 
-//  LF1M-25b
+//  FBSN1M-25a
 //  Bordered Flush 1-line Mirrored 25mm Background
 
 input="";
@@ -95,7 +95,7 @@ rout=7;
 rhole=3;
 lhole=5;
 tstrip=(5*.4);
-leanback=0.5;//.05
+leanback=0;//.05
 bit=.01;
 $fn=50;
 metrics=textmetrics(text=input,size=htex,font="Arial:style=bold",halign="left",valign="center");
