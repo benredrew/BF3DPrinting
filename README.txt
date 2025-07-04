@@ -2,14 +2,16 @@ Author - Brendan Fennell
 
 Part Numbering Scheme
 
-B F 1 I - 25
+B F 1 I - 25 a
+| | | |   |  |
+| | | |   |  |---> Component (Background [b], Accents [a])
 | | | |   |
-| | | |   |---> Size (mm: 15,25,24)
+| | | |   |------> Size (mm: 15,25,35)
 | | | |
-| | | |-------> Sides (Two Identical Sides [I], Two Unique Sides [T], One Side [O])
+| | | |----------> Sides (Mirrored Sides [M], Unique Sides [U], Single-Side [O])
 | | |
-| | |---------> Lines of Text (1,2,3)
+| | |------------> Lines of Text (1,2,3)
 | |
-| |-----------> Lettering (Flush [F], Extruded [E])
+| |--------------> Lettering (Flush [F], Extruded [E])
 |
-|-------------> Type (Bordered[B], Leaned[L])
+|----------------> Type (Bordered[B], Leaned[L])
